@@ -5,13 +5,12 @@ import java.util.*;
 public class String_Tokens {
 	 public static void main(String[] arg) {
 		 
-			/*
-			 * Scanner input = new Scanner(System.in);
-			 * System.out.print("Enter your string : "); String s = input.nextLine();
-			 * input.close();
-			 */
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter your string : "); String s = input.nextLine();
+		input.close();
+			 
 		 
-		 String s = "he is a very very good boy, isn't he?";
+		 //String s = "he is a very very good boy, isn't he?";
 		 
 		 s = s.trim();
 		 if (s.length()==0) {
