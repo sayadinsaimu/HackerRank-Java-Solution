@@ -14,5 +14,5 @@ public class Java_Stdin_and_Stdout_l {
 	        System.out.println("Double: " + d);
 	        System.out.println("Int: " + i);
 	        scan.close();
-	    }
+	}
 }
