@@ -41,6 +41,9 @@ class listComparator implements Comparator<Student> {
 		if (s1.getCgpa() < s2.getCgpa()) {
 			return 1;
 		}
+		if (s1.getCgpa() > s2.getCgpa()){
+			return -1;
+		}
 		if (s1.getCgpa() == s2.getCgpa()) {
 			if (!(s1.getFname().equals(s2.getFname()))) {
 				return s1.getFname().compareTo(s2.getFname());
